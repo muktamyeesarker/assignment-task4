@@ -48,7 +48,7 @@ jobs:
       - name: Install Fastlane
         run: gem install fastlane
  
-      # Build iOS
+      # Build iOS build
       - name: Build iOS
         run: |
           cd ios
